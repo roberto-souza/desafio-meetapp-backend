@@ -15,7 +15,7 @@ class User extends Model {
   }
 
   preferences () {
-    return this.hasOne('App/Models/UserPreferences')
+    return this.hasOne('App/Models/UserPreference')
   }
 
   tokens () {
